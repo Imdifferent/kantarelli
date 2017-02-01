@@ -7,42 +7,131 @@ body {
   margin: 0;
   padding: 0;
   background-color: #121212;
-  }
+}
+
+header {
+      width: 1140px;
+}
+
+main {
+    width: 1140px;
+}
 
   h2 {
       font-family: "Roboto", sans-serif;
       font-size: 19px;
-  }
+     }
 
   h3 {
       font-family: "Roboto", sans-serif;
       font-size: 24px;
+      font-weight: normal;
   }
+
+.services .container {
+    padding-top: 82px;
+    padding-bottom: 92px;
+    width: 480px;
+}
 
 .logo {
     display: inline-block;
-    width: auto;
-    height: auto;
-    margin: 50% 0;
-    margin-top: 20px;
+    width: 330px;
+    height: 130px;
+    margin-top: 60px;
     margin-bottom: 40px;
+    padding: 0 50%;
 }
 
 .opportunities {
     background-color: #1e1e1e;
     width: 100%;
     height: 45px;
+    text-align: center;
 }
 
 .opportunities h2 {
+    display: inline-block;
     text-transform: uppercase;
-    text-align: center;
-    font-weight: thin;
+    font-weight: 100;
+    vertical-align: middle;
+    line-height: 0.7em;
 }
 
+.plus-icon {
+    display: inline-block;
+    fill: white;
+    width: 35px;
+    height: 35px;
+}
+
+.location-icon {
+    display: inline-block;
+    fill: white;
+    width: 35px;
+    height: 35px;
+}
+
+.tel-icon {
+    display: inline-block;
+    fill: white;
+    width: 35px;
+    height: 35px;
+}
+
+.services {
+    padding-left: 405px;
+}
+.container h3 {
+    display: inline-block;
+    padding-left: 33px;
+}
 footer {
     width: 100%;
     background-color: #0c0c0c;
     border-top: 5px;
     border-color: #070707;
+}
+
+.main-footer .container {
+    width: 1140px;
+    padding-top: 53px;
+    display: block;
+    float: left;
+}
+
+.main-footer .container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-footer p {
+    padding-left: 30px;
+    font-size: 16px;
+
+}
+
+.finland-address {
+    display: block;
+    width: 360px;
+    margin-left: 130px;
+}
+
+.russia-address {
+    display: block;
+    width: 360px;
+    margin-left: 130px;
+}
+.designed-by {
+    background-color: #070707;
+    width: 1140px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.designed-by p {
+    display: inline;
+
 }
