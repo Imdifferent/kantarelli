@@ -99,14 +99,14 @@ footer {
 
 }
 
-.col {
+address {
     float: left;
     width: 360px;
     display: block;
     margin-left: 130px;
 }
 
-.col:after {
+address:after {
     content: "";
     display: table;
     clear: both;
