@@ -77,7 +77,7 @@ body {
     height: 35px;
 }
 
-.services {
+.heading {
     padding-left: 405px;
 }
 .list h3 {
@@ -86,7 +86,6 @@ body {
     text-align: top;
 }
 footer {
-    max-width: 1200px;
     background-color: #0c0c0c;
     border-top: 5px;
     border-color: #070707;
@@ -99,14 +98,10 @@ footer {
 
 }
 
-.col {
-    float: left;
-    width: 360px;
-    display: block;
-    margin-left: 130px;
+
 }
 
-.col:after {
+:after {
     content: "";
     display: table;
     clear: both;
