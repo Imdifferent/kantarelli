@@ -27,14 +27,9 @@ body {
        margin: 0;
   }
 
-header {
+.container {
+    margin: 0 auto;
     max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header .container {
-    margin: 0 auto;
-    text-align: center;
 }
 
 .logo {
@@ -43,7 +38,7 @@ header {
     height: 130px;
     margin-top: 60px;
     margin-bottom: 40px;
-    vertical-align: top;
+
 }
 .opportunities .container {
     width: 800px;
@@ -57,7 +52,6 @@ header {
     display: inline-block;
     text-transform: uppercase;
     font-weight: 100;
-    vertical-align: top;
     padding: 10px 0;
 }
 
