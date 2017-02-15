@@ -47,16 +47,15 @@ body {
 }
 
 .opportunities .container {
-    width: 800px;
     display: inline-block;
     vertical-align: top;
 }
-
 
 .opportunities h2 {
     text-transform: uppercase;
     font-weight: 100;
     padding: 10px 0;
+    width: 800px;
 }
 
 .services {
@@ -75,11 +74,12 @@ body {
 
 .service {
     margin-bottom: 30px;
-    background-color: lightblue;
+
 }
 
 .services-heading {
     margin-left: 405px;
+
 }
 
 .service-content {
@@ -87,7 +87,23 @@ body {
     display: block;
     margin-top: 20px;
     margin-left: 0;
+
 }
+
+
+.service-content .pict {
+    display: block;
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.service-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .service-content p {
     font-size: 14px;
@@ -139,9 +155,7 @@ body {
 
 .address-column p {
     box-sizing: border-box;
-    display: inline-block;
     padding-left: 30px;
-    vertical-align: top;
     line-height: 1.5;
     padding-top: 5px;
 }
